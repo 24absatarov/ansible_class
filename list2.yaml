@@ -1,0 +1,32 @@
+--- # beginning yaml
+
+# dealership
+cars:
+  - tesla
+  - lexus
+  - tayota
+
+# colors 
+colors:
+    - white
+    - black
+    - blue
+    - red
+    - green
+
+# turdukan's options
+car:
+  model:
+  - teslax
+  - teslay
+  - teslas
+  - tesla3
+  color:
+  - white
+  - black
+  - blue
+  - red
+  - green
+  location:
+  - chicago
+    
