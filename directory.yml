@@ -1,0 +1,8 @@
+---
+- name: Create a directory
+  hosts: localhost
+  tasks:
+    - name: Create "test-ansible" directory under /tmp folder
+      file:
+        state: directory
+        dest: /tmp/test-ansible

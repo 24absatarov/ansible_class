@@ -2,11 +2,11 @@
 - name: Install Packages
   hosts: localhost
   tasks:
-  - name: Install vim, tree, wget, curl
-    yum:
-      name:
-        - vim
-        - tree
-        - wget
-        - curl
-      state: latest
+    - name: Install vim, tree, wget, curl
+      yum:
+        name:
+          - vim
+          - tree
+          - wget
+          - curl
+        state: latest
